@@ -1,0 +1,55 @@
+
+.cuadro {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 400px;
+  height: 400px;
+  margin-top: -200px;
+  margin-left: -200px;
+  border-radius: 2px;
+  box-shadow: 4px 8px 16px 0 rgba(235, 30, 146, 0.1);
+  overflow: hidden;
+  background: hwb(327 9% 5%);
+  color: #333;
+}
+
+h1{ 
+    text-align: center;
+    padding: 50px;
+}
+
+.content {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+}
+
+.lines{
+	width:10rem;
+	height: 10rem;
+	display: flex;
+	flex-direction:column;
+	align-items: center;
+	justify-content: center;
+	gap: 1rem;
+}
+
+.line {
+	width: 60%;
+	height: 0.5rem;
+	background-color:white;
+	border-radius: 10px;
+	box-shadow: 0px 5px 1px 0px rgba(0,0,0,0.1);
+  
+}
+
+a{
+    transition: background-color 0.5s  
+}
+
+ a:hover {
+    background-color: rgb(0, 255, 26);
+  }
+ 
